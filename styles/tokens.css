@@ -1,0 +1,52 @@
+/*
+  Muscular America — semantic color and spacing tokens.
+  Final palette is provisional. Do not treat these values as approved brand colors.
+  Distinct from other publishing properties; do not reuse their identity systems.
+*/
+
+:root {
+  /* Surfaces */
+  --color-background: #f5f7fa;
+  --color-surface: #ffffff;
+  --color-surface-muted: #e8eef4;
+
+  /* Text */
+  --color-text: #142033;
+  --color-text-muted: #5a6b7d;
+
+  /* Borders */
+  --color-border: #c5d0dc;
+
+  /* Brand roles (placeholders) */
+  --color-primary: #1f4b7a;
+  --color-secondary: #2f6f6a;
+  --color-accent: #c45c26;
+
+  /* Status */
+  --color-success: #2f7d4a;
+  --color-caution: #b7791f;
+  --color-danger: #b42318;
+  --color-information: #2563a8;
+
+  /* Domain accents */
+  --color-training: #1f4b7a;
+  --color-nutrition: #2f6f6a;
+  --color-recovery: #6b5b95;
+  --color-tracking: #3d6b8a;
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  /* Layout */
+  --max-width-content: 42rem;
+  --max-width-wide: 72rem;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+}

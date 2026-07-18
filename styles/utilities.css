@@ -1,0 +1,17 @@
+.container-content {
+  width: min(100% - 2rem, var(--max-width-content));
+  margin-inline: auto;
+}
+
+.container-wide {
+  width: min(100% - 2rem, var(--max-width-wide));
+  margin-inline: auto;
+}
+
+.stack > * + * {
+  margin-block-start: var(--space-4);
+}
+
+.muted {
+  color: var(--color-text-muted);
+}
