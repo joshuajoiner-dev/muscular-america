@@ -1,0 +1,45 @@
+/*
+  Typography direction: Atkinson Hyperlegible Next for body and interface text.
+  Font files are not committed. Load via approved source when ready.
+  Until then, fall back to highly readable system stacks.
+*/
+
+:root {
+  --font-body: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible",
+    "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-body);
+  --font-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+
+  --text-xs: 0.8125rem;
+  --text-sm: 0.9375rem;
+  --text-base: 1.0625rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 1.875rem;
+  --text-3xl: 2.25rem;
+
+  --leading-tight: 1.25;
+  --leading-normal: 1.55;
+  --leading-relaxed: 1.7;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+  color: var(--color-text);
+  background: var(--color-background);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: var(--leading-tight);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.numerals {
+  font-variant-numeric: tabular-nums lining-nums;
+}
