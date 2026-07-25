@@ -3,6 +3,14 @@
 Institutional history of meaningful repository and publication milestones.  
 Not a substitute for Editorial Decisions.
 
+## 2026-07-24 — Publishing Platform Foundation (Sprint 1.0)
+
+- Added Platform Vision and product roadmap milestones
+- Established MDX + frontmatter content pipeline for Field Guide
+- Added typed loaders, validation, SEO helpers, browse/detail routes
+- Added five specimen Field Guide entries (pipeline validation only)
+- Analytics foundation already present (`analytics-foundation-v1.0`)
+
 ## 2026-07-16 — Founding architecture
 
 - Established root repository structure for Muscular America

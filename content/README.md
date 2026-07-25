@@ -1,15 +1,28 @@
-# Content
+# Publishing source
 
-Publication-first content lives here, separated from presentation (`app/`, `components/`) and structured data (`data/`).
+`content/` is the **version-controlled publishing source** for Muscular America.
 
-| Directory | Purpose |
-| --- | --- |
-| `articles/` | Editorial articles and essays |
-| `books/` | Book and field-guide manuscripts by publication |
-| `courses/` | Course outlines and lesson modules |
-| `glossary/` | Shared term definitions |
-| `newsletter/` | Newsletter drafts and archives |
-| `principles/` | Durable training and platform principles |
-| `references/` | Citation records and source notes |
+Muscular America is the publishing platform. Files here feed MuscularAmerica.com through loaders in `lib/content/`.
 
-Reuse content across web, print, courses, and newsletters by stable IDs — not by copying files into multiple homes.
+```text
+content/
+├── books/
+│   ├── field-guide/          # Publication #1 — first active publication
+│   │   ├── entries/          # MDX Field Guide specimens and future entries
+│   │   └── …                 # Organizational section folders (READMEs)
+│   └── simply-fit/           # Future book line (reserved)
+├── articles/                 # Future editorial articles (MDX)
+├── calculators/              # Future calculator explainers / copy
+├── courses/                  # Future course modules
+├── shared/                   # Cross-publication fragments
+├── glossary/
+├── newsletter/
+├── principles/
+└── references/
+```
+
+Future books such as Simply Fit can coexist under `books/` without changing platform architecture. Articles, calculator explanations, courses, newsletters, and shared notes may be added using the same frontmatter standards where appropriate.
+
+Load documents through `lib/content/` — never import individual MDX files from pages.
+
+See `docs/00_PLATFORM_VISION.md` and `docs/19_CONTENT_PIPELINE.md`.

@@ -2,5 +2,8 @@
 
 Components for short, browsable Field Guide entries.
 
-Support passive scanning: visual separation, compact segments, TV-guide-like browsing.
+- `FieldGuideEntryCard` — list item for browse view
+- `FieldGuideCategoryFilter` — category filter links
+
+Support passive scanning: visual separation, compact segments.
 Do not design these as dense textbook pages.

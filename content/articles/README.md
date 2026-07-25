@@ -1,6 +1,6 @@
-# Articles
+# Articles content
 
-Editorial articles for the Muscular America platform.
+Reserved for editorial articles as MDX documents.
 
-Prefer modular Markdown (or structured data) with front matter for title, summary, status, tags, and references.
-Do not dump unfinished drafts without a status field.
+Use the shared frontmatter standard in `docs/19_CONTENT_PIPELINE.md`.
+Loaders will follow the Field Guide pattern when articles ship.

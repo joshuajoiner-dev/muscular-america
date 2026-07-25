@@ -1,3 +1,3 @@
-# Courses
+# Courses content
 
-Course outlines and lesson modules that may reuse Field Guide entries, articles, and calculator explanations.
+Reserved for course outlines and lesson modules as MDX.
